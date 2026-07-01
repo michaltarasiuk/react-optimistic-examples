@@ -25,7 +25,9 @@ function ScrubArea({
 }: React.ComponentProps<typeof BaseNumberField.ScrubArea>) {
   return (
     <BaseNumberField.ScrubArea
-      className={className ? `${styles.ScrubArea} ${className}` : styles.ScrubArea}
+      className={
+        className ? `${styles.ScrubArea} ${className}` : styles.ScrubArea
+      }
       {...props}
     >
       {children}
@@ -39,7 +41,11 @@ function ScrubAreaCursor({
 }: React.ComponentProps<typeof BaseNumberField.ScrubAreaCursor>) {
   return (
     <BaseNumberField.ScrubAreaCursor
-      className={className ? `${styles.ScrubAreaCursor} ${className}` : styles.ScrubAreaCursor}
+      className={
+        className
+          ? `${styles.ScrubAreaCursor} ${className}`
+          : styles.ScrubAreaCursor
+      }
       {...props}
     >
       <CursorGrowIcon />
@@ -95,7 +101,9 @@ function Decrement({
 }: React.ComponentProps<typeof BaseNumberField.Decrement>) {
   return (
     <BaseNumberField.Decrement
-      className={className ? `${styles.Decrement} ${className}` : styles.Decrement}
+      className={
+        className ? `${styles.Decrement} ${className}` : styles.Decrement
+      }
       {...props}
     >
       <MinusIcon />
@@ -109,7 +117,9 @@ function Increment({
 }: React.ComponentProps<typeof BaseNumberField.Increment>) {
   return (
     <BaseNumberField.Increment
-      className={className ? `${styles.Increment} ${className}` : styles.Increment}
+      className={
+        className ? `${styles.Increment} ${className}` : styles.Increment
+      }
       {...props}
     >
       <PlusIcon />
