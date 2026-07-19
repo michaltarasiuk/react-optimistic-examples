@@ -1,7 +1,9 @@
 "use client";
 
-import { NumberField } from "@/components/number-field";
 import * as React from "react";
+
+import { NumberField } from "@/components/number-field";
+
 import { updateAmount } from "./_action";
 
 export default function Page() {

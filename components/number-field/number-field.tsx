@@ -1,6 +1,6 @@
 import { NumberField as BaseNumberField } from "@base-ui/react/number-field";
-import { CursorGrowIcon, MinusIcon, PlusIcon } from "../icons";
 
+import { CursorGrowIcon, MinusIcon, PlusIcon } from "../icons";
 import styles from "./number-field.module.css";
 
 function Root({

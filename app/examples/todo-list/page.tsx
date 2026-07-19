@@ -1,5 +1,7 @@
 "use client";
 
+import * as React from "react";
+
 import {
   addTodo,
   removeTodo,
@@ -11,7 +13,7 @@ import { Field, Label } from "@/components/field";
 import { Form } from "@/components/form";
 import { CheckIcon } from "@/components/icons";
 import { Input } from "@/components/input";
-import * as React from "react";
+
 import styles from "./page.module.css";
 
 export interface Todo {

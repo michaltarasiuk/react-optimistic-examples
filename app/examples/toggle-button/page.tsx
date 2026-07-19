@@ -1,9 +1,10 @@
 "use client";
 
+import * as React from "react";
+
 import { like } from "@/app/examples/toggle-button/_action";
 import { HeartFilledIcon, HeartOutlineIcon } from "@/components/icons";
 import { Toggle } from "@/components/toggle";
-import * as React from "react";
 
 export default function Page() {
   const [linked, setLiked] = React.useState(false);

@@ -1,4 +1,5 @@
 import { Link } from "@/components/link";
+
 import styles from "./layout.module.css";
 
 export default function ExamplesLayout({
